@@ -18,16 +18,18 @@ const Hero: React.FC = () => {
             {/* 
               TO ADD YOUR PROFILE PHOTO:
               1. Save your image as 'profile.jpg' in the public folder
-              2. Replace the div below with: */
+              2. Replace the div below with: */}
               <img 
                 src="/profile.jpg" 
                 alt="Mohit Nalluri" 
-                //className="w-48 h-48 mx-auto rounded-full object-cover shadow-lg"
+                className="w-48 h-48 mx-auto rounded-full object-cover shadow-lg"
               />
-            }
+            
+            {/*
             <div className="w-48 h-48 mx-auto bg-gray-300 rounded-full flex items-center justify-center text-gray-500 text-sm font-medium shadow-lg">
               Profile Photo
-            </div>
+            </div> */}
+
           </div>
 
           {/* Main Content */}
@@ -60,7 +62,7 @@ const Hero: React.FC = () => {
               {/* 
                 TO ADD YOUR CV:
                 1. Save your CV as 'cv.pdf' in the public folder
-                2. Replace the button below with: */
+                2. Replace the button below with: */}
                 <a 
                   href="/cv.pdf" 
                   download="MohitNalluri_CV.pdf"
@@ -69,11 +71,11 @@ const Hero: React.FC = () => {
                   <Download size={20} />
                   Download CV
                 </a>
-              }
-              <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-medium hover:border-blue-600 hover:text-blue-600 transition-all duration-200 flex items-center gap-2">
+              
+              {/*<button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-medium hover:border-blue-600 hover:text-blue-600 transition-all duration-200 flex items-center gap-2">
                 <Download size={20} />
                 Download CV
-              </button>
+              </button> */}
             </div>
 
             {/* Scroll Indicator */}

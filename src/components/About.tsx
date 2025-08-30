@@ -20,16 +20,16 @@ const About: React.FC = () => {
               {/* 
                 TO ADD YOUR ABOUT PROFILE IMAGE:
                 1. Save your image as 'about-profile.jpg' in the public folder
-                2. Replace the div below with: */
+                2. Replace the div below with: */}
                 <img 
                   src="/about-profile.jpg" 
                   alt="About Mohit" 
                   className="w-80 h-80 mx-auto rounded-lg object-cover shadow-lg"
                 />
-              }
+              {/* 
               <div className="w-80 h-80 mx-auto bg-gray-300 rounded-lg flex items-center justify-center text-gray-500 font-medium shadow-lg">
                 About Profile Image
-              </div>
+              </div>*/}
             </div>
 
             {/* Bio Content */}
