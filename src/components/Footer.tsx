@@ -7,13 +7,13 @@ const Footer: React.FC = () => {
     {
       name: 'LinkedIn',
       icon: <Linkedin size={20} />,
-      url: 'https://linkedin.com/in/your-profile', // CHANGE THIS
+      url: 'https://linkedin.com/in/mohitnalluri', // CHANGE THIS
       color: 'hover:text-blue-600'
     },
     {
       name: 'GitHub',
       icon: <Github size={20} />,
-      url: 'https://github.com/your-username', // CHANGE THIS
+      url: 'https://github.com/mohitnalluri', // CHANGE THIS
       color: 'hover:text-gray-800'
     },
     {
@@ -34,11 +34,11 @@ const Footer: React.FC = () => {
             {/* Brand/Logo Section */}
             <div>
               {/* CHANGE THIS: Replace with your name */}
-              <h3 className="text-xl font-bold mb-4">John Doe</h3>
+              <h3 className="text-xl font-bold mb-4">Mohit Nalluri</h3>
               <p className="text-gray-400 leading-relaxed">
                 {/* CHANGE THIS: Replace with your footer description */}
-                Full-Stack Developer passionate about creating exceptional digital experiences 
-                and solving complex problems through code.
+                Aspiring Data & Cloud Engineer passionate about building scalable, 
+                data-driven solutions and solving real-world problems through code and analytic
               </p>
             </div>
 
@@ -69,9 +69,9 @@ const Footer: React.FC = () => {
               <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
               <div className="space-y-2 text-gray-400">
                 {/* CHANGE THESE: Replace with your actual contact details */}
-                <p>john.doe@example.com</p>
-                <p>+1 (555) 123-4567</p>
-                <p>San Francisco, CA</p>
+                <p>nallurisriram@gmail.com</p>
+                <p>+91 9959988959</p>
+                <p>Hyderabad, IN</p>
               </div>
             </div>
           </div>
@@ -82,9 +82,8 @@ const Footer: React.FC = () => {
               {/* Copyright */}
               <div className="flex items-center gap-2 text-gray-400">
                 {/* CHANGE THIS: Replace with your name */}
-                <span>© {currentYear} John Doe. Made with</span>
-                <Heart size={16} className="text-red-500" />
-                <span>and lots of coffee.</span>
+                <span>© {currentYear} Mohit Nalluri. Designed and developed by me</span>
+                
               </div>
 
               {/* Social Links */}

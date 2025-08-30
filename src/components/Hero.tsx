@@ -18,13 +18,13 @@ const Hero: React.FC = () => {
             {/* 
               TO ADD YOUR PROFILE PHOTO:
               1. Save your image as 'profile.jpg' in the public folder
-              2. Replace the div below with:
+              2. Replace the div below with: */
               <img 
                 src="/profile.jpg" 
-                alt="Your Name" 
-                className="w-32 h-32 mx-auto rounded-full object-cover shadow-lg"
+                alt="Mohit Nalluri" 
+                className="w-48 h-48 mx-auto rounded-full object-cover shadow-lg"
               />
-            */}
+            }
             <div className="w-48 h-48 mx-auto bg-gray-300 rounded-full flex items-center justify-center text-gray-500 text-sm font-medium shadow-lg">
               Profile Photo
             </div>
@@ -34,18 +34,18 @@ const Hero: React.FC = () => {
           <div className="animate-fade-in-delay">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight">
               {/* CHANGE THIS: Replace with your actual name */}
-              John Doe
+              Mohit Sriram Narayana Nalluri
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
               {/* CHANGE THIS: Replace with your professional tagline */}
-              Full-Stack Developer & UI/UX Enthusiast
+             Backend & Cloud Enthusiast | Data-Driven Problem Solver
             </p>
             
             <p className="text-lg text-gray-500 mb-12 max-w-2xl mx-auto">
               {/* CHANGE THIS: Replace with your brief description */}
-              Passionate about creating beautiful, functional web applications 
-              that solve real-world problems and deliver exceptional user experiences.
+              Passionate about building scalable, data-driven solutions that solve real-world problems 
+              and leverage cloud technologies for meaningful impact.
             </p>
 
             {/* Call to Action Buttons */}
@@ -60,16 +60,16 @@ const Hero: React.FC = () => {
               {/* 
                 TO ADD YOUR CV:
                 1. Save your CV as 'cv.pdf' in the public folder
-                2. Replace the button below with:
+                2. Replace the button below with: */
                 <a 
                   href="/cv.pdf" 
-                  download="YourName_CV.pdf"
+                  download="MohitNalluri_CV.pdf"
                   className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-medium hover:border-blue-600 hover:text-blue-600 transition-all duration-200 flex items-center gap-2"
                 >
                   <Download size={20} />
                   Download CV
                 </a>
-              */}
+              }
               <button className="border-2 border-gray-300 text-gray-700 px-8 py-3 rounded-lg font-medium hover:border-blue-600 hover:text-blue-600 transition-all duration-200 flex items-center gap-2">
                 <Download size={20} />
                 Download CV

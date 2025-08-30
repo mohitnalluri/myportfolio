@@ -20,13 +20,13 @@ const About: React.FC = () => {
               {/* 
                 TO ADD YOUR ABOUT PROFILE IMAGE:
                 1. Save your image as 'about-profile.jpg' in the public folder
-                2. Replace the div below with:
+                2. Replace the div below with: */
                 <img 
                   src="/about-profile.jpg" 
-                  alt="About John Doe" 
+                  alt="About Mohit" 
                   className="w-80 h-80 mx-auto rounded-lg object-cover shadow-lg"
                 />
-              */}
+              }
               <div className="w-80 h-80 mx-auto bg-gray-300 rounded-lg flex items-center justify-center text-gray-500 font-medium shadow-lg">
                 About Profile Image
               </div>
@@ -37,20 +37,20 @@ const About: React.FC = () => {
               <div className="prose prose-lg max-w-none">
                 {/* CHANGE THIS: Replace with your actual bio content */}
                 <p className="text-gray-700 leading-relaxed">
-                  Hello! I'm John, a passionate full-stack developer with over 5 years of experience 
-                  building modern web applications. I specialize in React, Node.js, and cloud technologies, 
-                  with a keen eye for user experience and clean code architecture.
+Hello! I'm Mohit, a computer science graduate passionate about building data-driven and cloud-native solutions. 
+I have hands-on experience with Python, Java, SQL, and AWS, and I enjoy working on projects that combine backend development, 
+data analytics, and NLP to solve real-world problems.
                 </p>
                 
                 <p className="text-gray-700 leading-relaxed">
-                  When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
-                  projects, or sharing knowledge with the developer community. I believe in writing code that 
-                  is not only functional but also maintainable and scalable.
+                  When I'm not coding, you'll find me exploring cloud technologies, DevOps tools, and modern data engineering frameworks 
+                  like PySpark, Airflow, and Kafka. I believe in writing solutions that are scalable, maintainable, and meaningful, 
+                  bridging the gap between software engineering and data insights.
                 </p>
                 
                 <p className="text-gray-700 leading-relaxed">
-                  I'm always excited to take on new challenges and collaborate with teams that share 
-                  my passion for creating exceptional digital experiences.
+                  I’m always excited to learn, take on new challenges, and collaborate with teams that are driven by innovation 
+                  and impactful problem-solving, especially in FinTech and product-based domains.
                 </p>
               </div>
 
@@ -58,12 +58,12 @@ const About: React.FC = () => {
               <div className="grid grid-cols-2 gap-6 mt-8">
                 {/* CHANGE THESE: Update your stats */}
                 <div className="text-center p-4 bg-gray-50 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600">50+</div>
+                  <div className="text-2xl font-bold text-blue-600">5+</div>
                   <div className="text-sm text-gray-600">Projects Completed</div>
                 </div>
                 <div className="text-center p-4 bg-gray-50 rounded-lg">
-                  <div className="text-2xl font-bold text-blue-600">5+</div>
-                  <div className="text-sm text-gray-600">Years Experience</div>
+                  <div className="text-2xl font-bold text-blue-600">10+</div>
+                  <div className="text-sm text-gray-600">Skills / Tech Stack</div>
                 </div>
               </div>
             </div>

@@ -35,7 +35,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="text-2xl font-bold text-gray-800">
             {/* CHANGE THIS: Replace with your name or logo */}
-            Portfolio
+           Mohit's Portfolio
           </div>
 
           {/* Desktop Navigation - All links visible */}
