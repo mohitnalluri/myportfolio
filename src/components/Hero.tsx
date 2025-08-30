@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
               <img 
                 src="/profile.jpg" 
                 alt="Mohit Nalluri" 
-                className="w-48 h-48 mx-auto rounded-full object-cover shadow-lg"
+                //className="w-48 h-48 mx-auto rounded-full object-cover shadow-lg"
               />
             }
             <div className="w-48 h-48 mx-auto bg-gray-300 rounded-full flex items-center justify-center text-gray-500 text-sm font-medium shadow-lg">
