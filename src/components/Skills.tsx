@@ -23,7 +23,7 @@ const skillCategories = [
     title: "Data & Analytics",
     icon: <BarChart size={24} />,
     skills: ["Data Analysis", "Pandas", "NumPy", "PySpark", "Machine Learning", "NLP", "BERTopic", "FinBERT"]
-  },
+  }
  {/*} {
     title: "Design & UX",
     icon: <Palette size={24} />,
