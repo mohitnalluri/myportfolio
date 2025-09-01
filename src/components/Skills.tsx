@@ -24,18 +24,13 @@ const skillCategories = [
     icon: <BarChart size={24} />,
     skills: ["Data Analysis", "Pandas", "NumPy", "PySpark", "Machine Learning", "NLP", "BERTopic", "FinBERT"]
   }
- {/*} {
-    title: "Design & UX",
-    icon: <Palette size={24} />,
-    skills: ["Figma", "Adobe XD", "UI/UX Design", "Prototyping", "Wireframing"]
-  }*/}
 ];
 
 
   const coreSkills = [
     { name: "Python", level: 95 },
-    {name: "Java", level: 90}
-    { name: "Database Design", level: 85 }
+    {name: "Java", level: 90},
+    { name: "Database Design", level: 85 },
     { name: "React", level: 90 },
     { name: "TypeScript", level: 85 },
     { name: "Node.js", level: 88 },
