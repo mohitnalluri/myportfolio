@@ -1,5 +1,5 @@
 import React from 'react';
-import { Server, Code2, Database, Globe, Smartphone, Zap, Palette } from 'lucide-react';
+import { Server, Code2, Database, BarChart, Globe, Smartphone, Zap, Palette } from 'lucide-react';
 
 const Skills: React.FC = () => {
   // Change your skills here
