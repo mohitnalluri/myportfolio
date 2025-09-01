@@ -3,46 +3,43 @@ import { Code2, Database, Globe, Smartphone, Zap, Palette } from 'lucide-react';
 
 const Skills: React.FC = () => {
   // Change your skills here
-  const skillCategories = [
-    {
-      title: "Frontend Development",
-      icon: <Code2 size={24} />,
-      skills: ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "SASS"]
-    },
-    {
-      title: "Backend Development", 
-      icon: <Database size={24} />,
-      skills: ["Node.js", "Python", "Express", "FastAPI", "PostgreSQL", "MongoDB"]
-    },
-    {
-      title: "Web Technologies",
-      icon: <Globe size={24} />,
-      skills: ["REST APIs", "GraphQL", "WebSockets", "PWA", "SEO", "Performance"]
-    },
-    {
-      title: "Mobile & Cross-Platform",
-      icon: <Smartphone size={24} />,
-      skills: ["React Native", "Flutter", "Ionic", "Responsive Design"]
-    },
-    {
-      title: "DevOps & Tools",
-      icon: <Zap size={24} />,
-      skills: ["Docker", "AWS", "CI/CD", "Git", "Linux", "Nginx"]
-    },
-    {
-      title: "Design & UX",
-      icon: <Palette size={24} />,
-      skills: ["Figma", "Adobe XD", "UI/UX Design", "Prototyping", "Wireframing"]
-    }
-  ];
+const skillCategories = [
+  {
+    title: "Backend & Databases",
+    icon: <Server size={24} />,
+    skills: ["Java", "Python", "Spring Boot", "FastAPI", "PostgreSQL", "MySQL", "REST APIs"]
+  },
+  {
+    title: "Web Technologies",
+    icon: <Globe size={24} />,
+    skills: ["HTML", "Tailwind CSS", "JavaScript", "React", "GraphQL", "WebSockets"]
+  },
+  {
+    title: "Cloud & DevOps",
+    icon: <Zap size={24} />,
+    skills: ["AWS (S3, EC2, Lambda, RDS)", "Docker", "CI/CD", "Git", "Linux", "Terraform", "Nginx", "Airflow", "Kafka"]
+  },
+  {
+    title: "Data & Analytics",
+    icon: <BarChart size={24} />,
+    skills: ["Data Analysis", "Pandas", "NumPy", "PySpark", "Machine Learning", "NLP", "BERTopic", "FinBERT"]
+  },
+ {/*} {
+    title: "Design & UX",
+    icon: <Palette size={24} />,
+    skills: ["Figma", "Adobe XD", "UI/UX Design", "Prototyping", "Wireframing"]
+  }*/}
+];
+
 
   const coreSkills = [
-    { name: "JavaScript", level: 95 },
+    { name: "Python", level: 95 },
+    {name: "Java", level: 90}
+    { name: "Database Design", level: 85 }
     { name: "React", level: 90 },
     { name: "TypeScript", level: 85 },
     { name: "Node.js", level: 88 },
-    { name: "Python", level: 80 },
-    { name: "Database Design", level: 85 }
+    { name: "AWS", level: 85 }
   ];
 
   return (
@@ -91,7 +88,15 @@ const Skills: React.FC = () => {
 
           {/* Core Skills with Progress Bars */}
           <div className="bg-gray-50 rounded-xl p-8">
-            <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">
+            <h3 className="text-2xl font-bold text-{
+      title: "Frontend Development",
+      icon: <Code2 size={24} />,
+      skills: ["React", "TypeScript", "Next.js", "Vue.js", "Tailwind CSS", "SASS"]
+    },
+    {
+      title: "Backend Development", 
+      icon: <Database size={24} />,
+      skills: ["Python", "Javgray-800 mb-8 text-center">
               Core Competencies
             </h3>
             
