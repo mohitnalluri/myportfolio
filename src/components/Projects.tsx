@@ -8,7 +8,7 @@ interface Project {
   image: string;
   technologies: string[];
   githubUrl: string;
-  demoUrl: string;
+  demoUrl?: string;
 }
 
 const Projects: React.FC = () => {
@@ -16,35 +16,35 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
+      title: "Intelligent AI System for Analyzing Financial News",
+      description: "An AI-driven solution that analyzes financial news to extract key trends, sentiments, and crisis signals. Features include topic modeling with BERTopic, sentiment analysis with FinBERT, and timeline-based tracking of narrative shifts to detect evolving market conditions.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project1.jpg' in public folder and use "/project1.jpg"
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      githubUrl: "https://github.com/yourusername/ecommerce-platform", // CHANGE THIS
-      demoUrl: "https://ecommerce-demo.netlify.app" // CHANGE THIS
+      technologies: ["Python", "NLP", "BERTopic", "FinBERT", "Streamlit"],
+      githubUrl: "https://github.com/mohitnalluri/finnews-analyzer", // CHANGE THIS
+      //demoUrl: "https://ecommerce-demo.netlify.app" // CHANGE THIS
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, team collaboration features, and intuitive drag-and-drop interface.",
+      title: "Student Management App",
+      description: "A full-stack application for managing student records with secure role-based authentication (Spring Security). Features include student enrollment, course management, and attendance tracking, with a responsive Thymeleaf-based UI and a MySQL backend for data storage.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project2.jpg' in public folder and use "/project2.jpg"
       image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
-      githubUrl: "https://github.com/yourusername/task-manager", // CHANGE THIS
-      demoUrl: "https://taskmanager-demo.vercel.app" // CHANGE THIS
+      technologies: ["Java", "Springboot", "Thymeleaf", "MySQL"],
+      githubUrl: "https://github.com/mohitnalluri/student-management", // CHANGE THIS
+      //demoUrl: "https://taskmanager-demo.vercel.app" // CHANGE THIS
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A beautiful weather dashboard with location-based forecasts, interactive charts, and responsive design for all devices.",
+      title: "AI-Powered CloudOps Assistant",
+      description: "An AI-powered assistant that integrates with AWS accounts to handle data queries (metrics, logs, costs) and infra actions (resource provisioning, CLI/Terraform execution) from natural language. Features include secure IAM integration, confirmation-based infra execution, and real-time dashboards for insights and safe automation.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project3.jpg' in public folder and use "/project3.jpg"
       image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["Vue.js", "Chart.js", "OpenWeather API"],
-      githubUrl: "https://github.com/yourusername/weather-dashboard", // CHANGE THIS
-      demoUrl: "https://weather-dash.netlify.app" // CHANGE THIS
+      technologies: ["Python", "TypeScript", "FastAPI", "TailwindCSS", "PostgreSQL"],
+      githubUrl: "https://github.com/mohitnalluri/cloudops-agent", // CHANGE THIS
+      //demoUrl: "https://cloudops-agent.vercel.app" // CHANGE THIS
     },
-    {
+    {/*{
       id: 4,
       title: "Blog Platform",
       description: "A modern blog platform with markdown support, comment system, and SEO optimization. Built for performance and user engagement.",
@@ -53,25 +53,25 @@ const Projects: React.FC = () => {
       technologies: ["Gatsby", "GraphQL", "Netlify CMS"],
       githubUrl: "https://github.com/yourusername/blog-platform", // CHANGE THIS
       demoUrl: "https://myblog-platform.gatsbyjs.io" // CHANGE THIS
+    },*/}
+    {
+      id: 4,
+      title: "Expense Tracker",
+      description: "A full-stack MERN application to track and manage daily expenses with secure authentication, category management, and interactive dashboards. Features include detailed reports, budget insights, and a responsive UI for seamless expense tracking.",
+      // TO ADD YOUR PROJECT IMAGE: Save as 'project5.jpg' in public folder and use "/project5.jpg"
+      image: "https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=600",
+      technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Bootstrap"],
+      githubUrl: "https://github.com/mohitnalluri/expense-tracker", // CHANGE THIS
+      demoUrl: "https://expense-tracker-dusky-three.vercel.app" // CHANGE THIS
     },
     {
       id: 5,
-      title: "Finance Tracker",
-      description: "Personal finance tracking application with expense categorization, budget planning, and financial insights with interactive visualizations.",
-      // TO ADD YOUR PROJECT IMAGE: Save as 'project5.jpg' in public folder and use "/project5.jpg"
-      image: "https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["React", "D3.js", "Express", "MySQL"],
-      githubUrl: "https://github.com/yourusername/finance-tracker", // CHANGE THIS
-      demoUrl: "https://finance-tracker-demo.herokuapp.com" // CHANGE THIS
-    },
-    {
-      id: 6,
       title: "Portfolio Website",
       description: "This very portfolio website you're viewing! Built with modern technologies and best practices for performance and accessibility.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project6.jpg' in public folder and use "/project6.jpg"
       image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600",
       technologies: ["React", "Tailwind CSS", "Vite"],
-      githubUrl: "https://github.com/yourusername/portfolio", // CHANGE THIS
+      githubUrl: "https://github.com/mohitnalluri/myportfolio", // CHANGE THIS
       demoUrl: "#"
     }
   ];
@@ -140,7 +140,7 @@ const Projects: React.FC = () => {
                       <Github size={18} />
                       <span className="text-sm font-medium">Code</span>
                     </a>
-                    
+                    {project.demoUrl && (
                     <a
                       href={project.demoUrl}
                       target="_blank"
@@ -150,6 +150,7 @@ const Projects: React.FC = () => {
                       <ExternalLink size={18} />
                       <span className="text-sm font-medium">Demo</span>
                     </a>
+                    )}
                   </div>
                 </div>
               </div>
