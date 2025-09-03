@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
       githubUrl: "https://github.com/mohitnalluri/cloudops-agent", // CHANGE THIS
       //demoUrl: "https://cloudops-agent.vercel.app" // CHANGE THIS
     },
-    {/*{
+    /*{
       id: 4,
       title: "Blog Platform",
       description: "A modern blog platform with markdown support, comment system, and SEO optimization. Built for performance and user engagement.",
@@ -53,7 +53,7 @@ const Projects: React.FC = () => {
       technologies: ["Gatsby", "GraphQL", "Netlify CMS"],
       githubUrl: "https://github.com/yourusername/blog-platform", // CHANGE THIS
       demoUrl: "https://myblog-platform.gatsbyjs.io" // CHANGE THIS
-    },*/}
+    },*/
     {
       id: 4,
       title: "Expense Tracker",
