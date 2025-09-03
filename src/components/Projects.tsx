@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
     {
       id: 1,
       title: "Intelligent AI System for Analyzing Financial News",
-      description: "An AI-driven solution that analyzes financial news to extract key trends, sentiments, and crisis signals. Features include topic modeling with BERTopic, sentiment analysis with FinBERT, and timeline-based tracking of narrative shifts to detect evolving market conditions.",
+      description: "AI-driven system that analyzes financial news to extract trends, sentiments, and potential market risks. Implements BERTopic for topic modeling, FinBERT for sentiment analysis, and timeline tracking to detect narrative shifts in financial news.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project1.jpg' in public folder and use "/project1.jpg"
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
       technologies: ["Python", "NLP", "BERTopic", "FinBERT", "Streamlit"],
@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
     {
       id: 2,
       title: "Student Management App",
-      description: "A full-stack application for managing student records with secure role-based authentication (Spring Security). Features include student enrollment, course management, and attendance tracking, with a responsive Thymeleaf-based UI and a MySQL backend for data storage.",
+      description: "Full-stack application to manage student records securely with Spring Security. Supports student enrollment, course management, attendance tracking, and a responsive Thymeleaf UI with MySQL backend for reliable data storage.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project2.jpg' in public folder and use "/project2.jpg"
       image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600",
       technologies: ["Java", "Springboot", "Thymeleaf", "MySQL"],
@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
     {
       id: 3,
       title: "AI-Powered CloudOps Assistant",
-      description: "An AI-powered assistant that integrates with AWS accounts to handle data queries (metrics, logs, costs) and infra actions (resource provisioning, CLI/Terraform execution) from natural language. Features include secure IAM integration, confirmation-based infra execution, and real-time dashboards for insights and safe automation.",
+      description: "AI assistant that connects with AWS to handle data queries and infrastructure tasks. Provides real-time dashboards, generates safe CLI/Terraform commands, and confirms execution to ensure secure cloud operations.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project3.jpg' in public folder and use "/project3.jpg"
       image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600",
       technologies: ["Python", "TypeScript", "FastAPI", "TailwindCSS", "PostgreSQL"],
@@ -57,7 +57,7 @@ const Projects: React.FC = () => {
     {
       id: 4,
       title: "Expense Tracker",
-      description: "A full-stack MERN application to track and manage daily expenses with secure authentication, category management, and interactive dashboards. Features include detailed reports, budget insights, and a responsive UI for seamless expense tracking.",
+      description: "Full-stack MERN application to track and manage daily expenses securely. Supports user authentication, category management, interactive dashboards, and detailed reports for better budgeting and financial insights.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project5.jpg' in public folder and use "/project5.jpg"
       image: "https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=600",
       technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Bootstrap"],
@@ -67,7 +67,7 @@ const Projects: React.FC = () => {
     {
       id: 5,
       title: "Portfolio Website",
-      description: "This very portfolio website you're viewing! Built with modern technologies and best practices for performance and accessibility.",
+      description: "Personal portfolio website showcasing projects, skills, and experience. Built with modern technologies for high performance, responsive design, and accessibility. Highlights interactive components and a clean, professional interface.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project6.jpg' in public folder and use "/project6.jpg"
       image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600",
       technologies: ["React", "Tailwind CSS", "Vite"],
