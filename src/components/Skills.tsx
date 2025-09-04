@@ -5,26 +5,32 @@ const Skills: React.FC = () => {
   // Change your skills here
 const skillCategories = [
   {
-    title: "Backend & Databases",
+    title: "Programming & Databases",
     icon: <Server size={24} />,
-    skills: ["Java", "Python", "Spring Boot", "FastAPI", "PostgreSQL", "MySQL", "REST APIs"]
+    skills: ["Python", "Java", "SQL (MySQL, PostgreSQL)"]
   },
   {
-    title: "Web Technologies",
+    title: "Data & ML",
+    icon: <BarChart size={24} />,
+    skills: ["Pandas", "NumPy", "Matplotlib", "Scikit-learn"]
+  },
+  {
+    title: "NLP & Transformers",
     icon: <Globe size={24} />,
-    skills: ["HTML", "Tailwind CSS", "JavaScript", "React", "GraphQL", "WebSockets"]
+    skills: ["Topic Modeling", "Sentiment Analysis", "BERTopic", "FinBERT"]
   },
   {
     title: "Cloud & DevOps",
     icon: <Zap size={24} />,
-    skills: ["AWS (S3, EC2, Lambda, RDS)", "Docker", "CI/CD", "Git", "Linux", "Terraform", "Nginx", "Airflow", "Kafka"]
+    skills: ["AWS", "Git", "Linux", "CI/CD", "Docker"]
   },
   {
-    title: "Data & Analytics",
-    icon: <BarChart size={24} />,
-    skills: ["Data Analysis", "Pandas", "NumPy", "PySpark", "Machine Learning", "NLP", "BERTopic", "FinBERT"]
+    title: "Backend Development",
+    icon: <Server size={24} />,
+    skills: ["Spring Boot", "REST APIs", "FastAPI", "Maven"]
   }
 ];
+
 
 
   const coreSkills = [
@@ -32,8 +38,8 @@ const skillCategories = [
     {name: "Java", level: 90},
     { name: "Database Design", level: 85 },
     { name: "React", level: 90 },
-    { name: "TypeScript", level: 85 },
-    { name: "Node.js", level: 88 },
+    { name: "NLP", level: 85 },
+    { name: "Linux", level: 75 },
     { name: "AWS", level: 85 }
   ];
 
