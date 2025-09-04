@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
       // 1. Go to https://formspree.io and create an account
       // 2. Create a new form and get your form ID
       // 3. Replace "YOUR_FORM_ID" below with your actual form ID
-      const formspreeUrl = "https://formspree.io/f/YOUR_FORM_ID";
+      const formspreeUrl = "https://formspree.io/f/xnnbopra";
       
       const response = await fetch(formspreeUrl, {
         method: 'POST',

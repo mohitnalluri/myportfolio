@@ -36,9 +36,9 @@ const skillCategories = [
   const coreSkills = [
     { name: "Python", level: 95 },
     {name: "Java", level: 90},
-    { name: "Database Design", level: 85 },
-    { name: "React", level: 90 },
+    { name: "Database Design", level: 90 },
     { name: "NLP", level: 85 },
+    { name: "React", level: 80 },
     { name: "Linux", level: 75 },
     { name: "AWS", level: 85 }
   ];

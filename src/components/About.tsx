@@ -22,7 +22,7 @@ const About: React.FC = () => {
                 1. Save your image as 'about-profile.jpg' in the public folder
                 2. Replace the div below with: */}
                 <img 
-                  src="/MPic.png" 
+                  src="/about-profile.png" 
                   alt="About Mohit" 
                   className="w-80 h-80 mx-auto rounded-lg object-contain object-center shadow-lg"
                 />
