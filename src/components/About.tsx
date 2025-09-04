@@ -24,7 +24,7 @@ const About: React.FC = () => {
                 <img 
                   src="/about-profile.jpeg" 
                   alt="About Mohit" 
-                  className="w-80 h-80 mx-auto rounded-lg object-cover shadow-lg"
+                  className="w-80 h-80 mx-auto rounded-lg object-cover object-center shadow-lg"
                 />
               {/* 
               <div className="w-80 h-80 mx-auto bg-gray-300 rounded-lg flex items-center justify-center text-gray-500 font-medium shadow-lg">

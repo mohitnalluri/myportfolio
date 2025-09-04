@@ -20,9 +20,9 @@ const Hero: React.FC = () => {
               1. Save your image as 'profile.jpg' in the public folder
               2. Replace the div below with: */}
               <img 
-                src="/profile.jpeg" 
+                src="/profilesq.jpeg" 
                 alt="Mohit Nalluri" 
-                className="w-48 h-48 mx-auto rounded-full object-cover shadow-lg"
+                className="w-48 h-48 mx-auto rounded-full object-cover object-center shadow-lg"
               />
             
             {/*
