@@ -19,17 +19,17 @@ const Projects: React.FC = () => {
       title: "Intelligent AI System for Analyzing Financial News",
       description: "AI-driven system that analyzes financial news to extract trends, sentiments, and potential market risks. Implements BERTopic for topic modeling, FinBERT for sentiment analysis, and timeline tracking to detect narrative shifts in financial news.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project1.jpg' in public folder and use "/project1.jpg"
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/project1.jpg",
       technologies: ["Python", "NLP", "BERTopic", "FinBERT", "Streamlit"],
       githubUrl: "https://github.com/mohitnalluri/finnews-analyzer", // CHANGE THIS
       //demoUrl: "https://ecommerce-demo.netlify.app" // CHANGE THIS
     },
     {
       id: 2,
-      title: "Student Management App",
+      title: "Student Management System",
       description: "Full-stack application to manage student records securely with Spring Security. Supports student enrollment, course management, attendance tracking, and a responsive Thymeleaf UI with MySQL backend for reliable data storage.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project2.jpg' in public folder and use "/project2.jpg"
-      image: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/project2.jpg",
       technologies: ["Java", "Springboot", "Thymeleaf", "MySQL"],
       githubUrl: "https://github.com/mohitnalluri/student-management", // CHANGE THIS
       //demoUrl: "https://taskmanager-demo.vercel.app" // CHANGE THIS
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
       title: "AI-Powered CloudOps Assistant",
       description: "AI assistant that connects with AWS to handle data queries and infrastructure tasks. Provides real-time dashboards, generates safe CLI/Terraform commands, and confirms execution to ensure secure cloud operations.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project3.jpg' in public folder and use "/project3.jpg"
-      image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/project3.jpg",
       technologies: ["Python", "TypeScript", "FastAPI", "TailwindCSS", "PostgreSQL"],
       githubUrl: "https://github.com/mohitnalluri/cloudops-agent", // CHANGE THIS
       //demoUrl: "https://cloudops-agent.vercel.app" // CHANGE THIS
@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
       title: "Expense Tracker",
       description: "Full-stack MERN application to track and manage daily expenses securely. Supports user authentication, category management, interactive dashboards, and detailed reports for better budgeting and financial insights.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project5.jpg' in public folder and use "/project5.jpg"
-      image: "https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/project4.jpeg",
       technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Bootstrap"],
       githubUrl: "https://github.com/mohitnalluri/expense-tracker", // CHANGE THIS
       demoUrl: "https://expense-tracker-dusky-three.vercel.app" // CHANGE THIS
@@ -69,7 +69,7 @@ const Projects: React.FC = () => {
       title: "Portfolio Website",
       description: "Personal portfolio website showcasing projects, skills, and experience. Built with modern technologies for high performance, responsive design, and accessibility. Highlights interactive components and a clean, professional interface.",
       // TO ADD YOUR PROJECT IMAGE: Save as 'project6.jpg' in public folder and use "/project6.jpg"
-      image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/project5.jpeg",
       technologies: ["React", "Tailwind CSS", "Vite"],
       githubUrl: "https://github.com/mohitnalluri/myportfolio", // CHANGE THIS
       demoUrl: "#"
