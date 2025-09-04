@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
               <img 
                 src="/profilesq.jpeg" 
                 alt="Mohit Nalluri" 
-                className="w-48 h-48 mx-auto rounded-full object-cover object-center shadow-lg"
+                className="w-48 h-48 mx-auto rounded-full object-contain object-center shadow-lg"
               />
             
             {/*
