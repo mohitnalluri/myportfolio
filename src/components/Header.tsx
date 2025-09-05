@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import { Menu, X } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,6 +26,8 @@ const Header: React.FC = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+    // Close mobile menu after clicking a link
+    setIsMobileMenuOpen(false);
   };
 
   return (
@@ -35,16 +39,44 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="text-2xl font-bold text-gray-800">
             {/* CHANGE THIS: Replace with your name or logo */}
-           Mohit's Portfolio
+            Mohit's Portfolio
           </div>
 
-          {/* Desktop Navigation - All links visible */}
-          <div className="flex space-x-8">
+          {/* Desktop Navigation - Hidden on mobile */}
+          <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
-                className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium"/*text-lg md:text-xl */
+                className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium"
+              >
+                {item.name}
+              </button>
+            ))}
+          </div>
+
+          {/* Mobile Menu Button - Only visible on mobile */}
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="md:hidden p-2 text-gray-600 hover:text-blue-600 transition-colors duration-200"
+            aria-label="Toggle mobile menu"
+          >
+            {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
+        </div>
+
+        {/* Mobile Navigation Menu - Only visible when open */}
+        <div className={`md:hidden transition-all duration-300 ease-in-out ${
+          isMobileMenuOpen 
+            ? 'max-h-64 opacity-100 mt-4' 
+            : 'max-h-0 opacity-0 overflow-hidden'
+        }`}>
+          <div className="bg-white/95 backdrop-blur-sm rounded-lg shadow-lg border border-gray-100 py-4">
+            {navItems.map((item) => (
+              <button
+                key={item.name}
+                onClick={() => scrollToSection(item.href)}
+                className="block w-full text-left px-6 py-3 text-gray-600 hover:text-blue-600 hover:bg-blue-50 transition-all duration-200 font-medium"
               >
                 {item.name}
               </button>
