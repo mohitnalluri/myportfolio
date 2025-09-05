@@ -31,7 +31,7 @@ const Projects: React.FC = () => {
       // TO ADD YOUR PROJECT IMAGE: Save as 'project2.jpg' in public folder and use "/project2.jpg"
       image: "/project2.jpg",
       technologies: ["Java", "Springboot", "Thymeleaf", "MySQL"],
-      githubUrl: "https://github.com/mohitnalluri/student-management", // CHANGE THIS
+      githubUrl: "https://github.com/mohitnalluri/student-management-system", // CHANGE THIS
       //demoUrl: "https://taskmanager-demo.vercel.app" // CHANGE THIS
     },
     {
